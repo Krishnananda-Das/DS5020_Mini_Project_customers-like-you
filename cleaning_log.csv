@@ -1,0 +1,7 @@
+rule,rows_before,rows_removed,rows_after,removed_%_of_raw
+1. Missing Customer ID,1067371,243007,824364,22.77
+2. Cancellation invoices (start with C),824364,18744,805620,1.76
+3. Quantity <= 0,805620,0,805620,0.0
+4. Price <= 0,805620,71,805549,0.01
+5. Non-product stock codes,805549,2917,802632,0.27
+6. Purchases fully reversed by an exact cancellation (2 lines),802632,2,802630,0.0

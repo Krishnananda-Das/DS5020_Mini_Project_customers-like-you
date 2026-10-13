@@ -1,0 +1,14 @@
+,validation (tuning),test (final)
+fit_ends_before,2011-08-09,2011-10-08
+fit_rows,612498,683669
+fit_customers,5150,5472
+fit_products,4385,4529
+eval_rows_raw,71171,118961
+eval_customers_total,1845,2422
+eval_customers_new_not_in_fit,322,380
+heldout_pairs,29532,49646
+matrix_customers,5149,5471
+matrix_products,3492,3686
+matrix_nonzeros,373743,413690
+heldout_pairs_after_product_filter,24227,44922
+eval_customers_left,1400,1913

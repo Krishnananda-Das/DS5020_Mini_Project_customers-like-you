@@ -1,0 +1,12 @@
+,0
+customers (rows),5471.0
+products (columns),3686.0
+total cells,20166106.0
+non-zero cells,413690.0
+density %,2.05
+sparsity %,97.95
+avg products per customer,75.6
+avg customers per product,112.2
+dense memory (MB),161.3
+sparse CSR memory (MB),5.0
+factors at k=50 (MB),3.7
