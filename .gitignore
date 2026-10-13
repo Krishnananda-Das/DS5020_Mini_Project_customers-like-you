@@ -1,0 +1,11 @@
+# Raw and processed data: never committed (large, and contains customer IDs)
+/data/
+
+# Python / Jupyter noise
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# OS noise
+.DS_Store
+Thumbs.db
