@@ -1,0 +1,6 @@
+method,hit_rate,se
+10 best sellers (baseline),27.0,1.0
+"SVD k=50, log-quantity matrix, alone",21.8,0.9
+SVD k=50 + popularity blend (w=2)  <- chosen on validation,35.0,1.1
+SVD k=50 on 1/0 matrix (like-for-like),23.6,1.0
+No compression: item-item cosine on 1/0 matrix,31.9,1.1
