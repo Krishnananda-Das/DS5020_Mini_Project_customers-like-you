@@ -1,0 +1,10 @@
+Measure,PCA,Truncated SVD
+k used,50,50
+Fit time (s),0.8,0.51
+"Peak memory during fit (MB, Python/NumPy allocations)",8.3,9.7
+Size of stored factors (MB),3.7,3.7
+Variance explained / relative error vs A,34.9% of centred variance; error vs A = 0.789,error vs A = 0.790 (info kept 37.6%)
+Hit rate at 10 (held-out),21.3% (+/-0.9%),21.8% (+/-0.9%)
+Best-seller baseline hit rate at 10,27.0%,27.0%
+What component 1 represents,"Also volume / popularity, despite centring: customer score corr 0.89 with products bought; loadings corr 0.91 with popularity. Top: PACK OF 72 RETROSPOT CAKE CASES, JUMBO BAG RED RETROSPOT, LUNCH BAG RED RETROSPOT.","Overall volume / popularity: customer score tracks distinct products bought (corr 0.89); loadings track product popularity (0.94). Top: PACK OF 72 RETROSPOT CAKE CASES, WHITE HANGING HEART T-LIGHT HOLDER, JUMBO BAG RED RETROSPOT."
+Hit rate at 10 with centred customer profile (fairness check),24.6% (+/-1.0%),n/a (SVD has no centring step)
