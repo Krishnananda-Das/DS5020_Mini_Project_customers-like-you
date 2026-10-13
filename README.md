@@ -67,6 +67,3 @@ Test period: 9 Oct to 9 Dec 2011. Settings (k = 50, popularity weight = 2) were 
 | `requirements.txt` | Pinned package versions (R6) |
 | `.gitignore` | Keeps raw and processed data out of Git |
 
-## Note on layout
-
-Result files are at the repo root for convenience. When the notebook or script is run, they are written to an `outputs/` folder. The `data/` folder (raw and processed data, which contains customer IDs) is never committed.
